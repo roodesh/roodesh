@@ -31,7 +31,7 @@
     "cookiesAlert": "",
     "google-analytics": "",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 31,
+    "uniqCompNum": 32,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -224,7 +224,7 @@
           },
           "subtitle": "exclusive books",
           "title": "HIGH IMPACT CREATIVE BOOKS&nbsp;",
-          "text": "A large variety of specialised books are being made available through our trimester based catalogue. These range from Art, Animals &amp; Pets, Childern safety, to Music, History and even Parenting.<br><br>If you have any special requirement, any book in any category which you require. We will be more than happy to find out the one which best suits your needs. ",
+          "text": "A large variety of specialised books are being made available through our quarterly based catalogue. These range from Art, Animals &amp; Pets, Childern safety, to Music, History and even Parenting.<br><br>If you have any special requirement, any book in any category which you require. We will be more than happy to find out the one which best suits your needs. ",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"mailto:books@prodigy.mu\" data-toolbar=\"-mbrBtnMove\">contact us</a>",
           "media": {
             "image": {
@@ -518,7 +518,7 @@
             }
           },
           "title4": "EXPAND THEIR GENERAL KNOWLEDGE",
-          "text4": "Biographical works of famous people, especially made for children, are included in our trimestrial catalogue. Why not introduce the works, the childhood and the journey of great men such as Picasso, Rene Descartes, Darwin, Ben Franklin, Neymar and the Beatles to kids! <br>These could lead to deep-seated interests which can blossom into a deeper purpose for careers and life goals (from 'Creating Innovators').<br><br>",
+          "text4": "Biographical works of famous people, especially made for children, are included in our quaterly catalogue. Why not introduce the works, the childhood and the journey of great men such as Picasso, Rene Descartes, Darwin, Ben Franklin, Neymar and the Beatles to kids! <br>These could lead to deep-seated interests which can blossom into a deeper purpose for careers and life goals (from 'Creating Innovators').<br><br>",
           "media5": {
             "iconFont": {
               "active": true,
@@ -545,7 +545,7 @@
           },
           "title6": "CONTACT FORMS",
           "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-5\" aria-expanded=\"true\">amazing</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-5\" aria-expanded=\"false\">Creative</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-5\" aria-expanded=\"false\">fun</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-5\" aria-expanded=\"false\">expansive</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-5\" aria-expanded=\"true\">awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-5\">Beautiful</a></li>"
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-5\" aria-expanded=\"false\">amazing</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-5\" aria-expanded=\"false\">Creative</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-5\" aria-expanded=\"false\">fun</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-5\" aria-expanded=\"true\">expansive</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-5\" aria-expanded=\"true\">awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-5\">Beautiful</a></li>"
         },
         {
           "_styles": {
@@ -588,7 +588,7 @@
             "overlayOpacity": "0.6"
           },
           "title": "exclusive &nbsp;books",
-          "text": "We stand as your exclusive partner and consultant, to provide the best of breed and up to date specialised books to your students, <br>thus making your institution stand out in this vastly competitive market.",
+          "text": "We stand as your exclusive partner and consultant, to provide the best of breed and high value specialised books to your students, <br>thus making your institution stand out in this vastly competitive market.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html#features9-a\" data-toolbar=\"-mbrBtnMove\">TRY US OUT !</a>"
         },
         {
@@ -702,20 +702,23 @@
             },
             ".mbr-section__container .mbr-section-subtitle": {
               "color": "#a0a0a0"
+            },
+            "DIV": {
+              "font-size": "14px"
             }
           },
           "_params": {
             "showTitle": true,
             "showSubtitle": true,
-            "firstType": "",
+            "firstType": "default",
             "secondType": "popular",
-            "thirdType": "",
-            "fourthType": "",
+            "thirdType": "default",
+            "fourthType": "default",
             "paddingTop": 3,
             "paddingBottom": 3,
             "showButtons": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-10-1620x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-11-1620x1080.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#ecf0f1",
@@ -749,19 +752,19 @@
           "period2": "/mo",
           "period3": "/mo",
           "period4": "/mo",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access</b>&nbsp;Standard catalogue</li><li class=\"list-group-item\"><b>Order</b>&nbsp;online</li><li class=\"list-group-item\"><b>Updated </b>Quarterly</li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access</b>&nbsp;Standard + Advanced catalogues</li><li class=\"list-group-item\"><b>Order</b>&nbsp;Online</li><li class=\"list-group-item\"><b style=\"background-color: initial; font-size: 0.875rem;\">Updated </b><span style=\"background-color: initial; font-size: 0.875rem;\">Quarterly</span></li><li class=\"list-group-item\"><b style=\"background-color: initial; font-size: 0.875rem;\"><br></b></li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access</b>&nbsp;Standard + Advanced + Premium catalogues</li><li class=\"list-group-item\"><b>Order</b>&nbsp;online</li><li class=\"list-group-item\"><b>Updated </b>Quarterly</li><li class=\"list-group-item\"><b>Request </b>specific books</li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited Access</b> to all catalogues</li><li class=\"list-group-item\"><b>Order</b>&nbsp;online</li><li class=\"list-group-item\"><b>Updated </b>quarterly</li><li class=\"list-group-item\"><b>Request</b> specific books</li><li class=\"list-group-item\"><b>Access digital books</b></li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "list1": "<p><b>Access </b>Standard catalogue\n</p><p></p><div><b>Order </b>online\n</div><div><br></div><div><b>Updated </b>Quarterly<br><div><b>\n</b></div><div><b><br></b><p><br></p><p><br></p></div></div><p></p>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\"><b>Access </b>Standard + Advanced catalogues&nbsp;</span><br></li><li class=\"list-group-item\"><b>Order </b>Online\n</li><li class=\"list-group-item\"><b>Updated </b>Quarterly</li></ul><p><br></p><p><br></p>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access </b>Standard + Advanced + Premium catalogues\r</li><li class=\"list-group-item\"><b>Order </b>online\r</li><li class=\"list-group-item\"><b>Updated </b>Quarterly\r</li><li class=\"list-group-item\"><b>Request </b>specific books</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b>&nbsp;<b>Access </b>to all catalogues\n</li><li class=\"list-group-item\"><b>Order </b>online\n</li><li class=\"list-group-item\"><b>Updated </b>quarterly\n</li><li class=\"list-group-item\"><b>Request </b>specific books\n</li><li class=\"list-group-item\"><b>Access digital books</b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-t"
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-v"
         },
         {
           "alias": "colorm/components",

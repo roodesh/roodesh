@@ -849,11 +849,14 @@ blockquote {
 #animated-bg1-b P {
   font-size: 17px;
 }
-#pricing-table1-t .mbr-section__container .mbr-section-title {
+#pricing-table2-v .mbr-section__container .mbr-section-title {
   color: #fff;
 }
-#pricing-table1-t .mbr-section__container .mbr-section-subtitle {
+#pricing-table2-v .mbr-section__container .mbr-section-subtitle {
   color: #a0a0a0;
+}
+#pricing-table2-v DIV {
+  font-size: 14px;
 }
 #features15-n .mbr-section-title {
   font-weight: 700;
