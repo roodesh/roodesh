@@ -39,8 +39,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Exclusive Books",
+        "meta_descr": "Exclusive Books provides services to schools to aim for higher standards and stand out from the rest of the competition.\nWe provide schools with carefully chosen specialised books to enhance the range of materials being made available for children.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -756,10 +756,10 @@
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\"><b>Access </b>Standard + Advanced catalogues&nbsp;</span><br></li><li class=\"list-group-item\"><b>Order </b>Online\n</li><li class=\"list-group-item\"><b>Updated </b>Quarterly</li></ul><p><br></p><p><br></p>",
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access </b>Standard + Advanced + Premium catalogues\r</li><li class=\"list-group-item\"><b>Order </b>online\r</li><li class=\"list-group-item\"><b>Updated </b>Quarterly\r</li><li class=\"list-group-item\"><b>Request </b>specific books</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b>&nbsp;<b>Access </b>to all catalogues\n</li><li class=\"list-group-item\"><b>Order </b>online\n</li><li class=\"list-group-item\"><b>Updated </b>quarterly\n</li><li class=\"list-group-item\"><b>Request </b>specific books\n</li><li class=\"list-group-item\"><b>Access digital books</b></li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">subscribe</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
           "_tags": [
             "Theme"
           ],
