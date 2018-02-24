@@ -1,0 +1,1047 @@
+{
+  "settings": {
+    "name": "Exclusive Books",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#2994dc",
+        "#f0eeee"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "google-analytics": "",
+    "versionFirst": "4.5.4",
+    "uniqCompNum": 31,
+    "versionPublish": "4.5.4",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#798d8f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#8d9e9f!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#95a5a6"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#95a5a6",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header9-4\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header5-5\">Advantages</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#animated-bg1-b\">Get your Exclusive Books</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#progress-bar4-s\">Books Availability</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features15-n\">About Us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-t\">Pricing</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#accordion2-i\">FAQs</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mailto:books@prodigy.mu\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/exclusiv-books-logo-3-750x89.png",
+              "height": 128,
+              "alt": "Exclusive Books",
+              "link": "#top",
+              "title": "Exclusive Books"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-k"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            },
+            ".mbr-section-title": {
+              "text-align": "right"
+            },
+            ".mbr-section-text": {
+              "font-size": "20px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "buttonAlign": "right",
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1618x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c3e50",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": "0.4"
+          },
+          "title": "Exclusive<br>Books",
+          "text": "your partner in creating the great confident individuals of the future",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"index.html#header9-4\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "color": "#9fa3a7",
+              "font-size": "17px"
+            },
+            ".mbr-section-text": {
+              "color": "#9fa3a7",
+              "font-size": "17px"
+            },
+            ".mbr-section-title": {
+              "color": "#242424",
+              "font-weight": "bold"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header7",
+          "_anchor": "header7-6",
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "subtitle": "exclusive books",
+          "title": "HIGH IMPACT CREATIVE BOOKS&nbsp;",
+          "text": "A large variety of specialised books are being made available through our trimester based catalogue. These range from Art, Animals &amp; Pets, Childern safety, to Music, History and even Parenting.<br><br>If you have any special requirement, any book in any category which you require. We will be more than happy to find out the one which best suits your needs. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"mailto:books@prodigy.mu\" data-toolbar=\"-mbrBtnMove\">contact us</a>",
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1568x1080.jpg",
+              "class": "",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "50px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#000"
+            },
+            ".header-text": {
+              "font-size": "17px"
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header9",
+          "_anchor": "header9-4",
+          "_params": {
+            "showHeader": true,
+            "showText": true,
+            "showImages": true,
+            "showTitles": true,
+            "tabs": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "title": "<br>What is Exclusive Books?",
+          "text": "Exclusive Books provides services to schools to aim for higher standards and stand out from the rest of the competition.<br>We provide schools with carefully chosen specialised books to enhance&nbsp;the range of materials being made available for children.<br><br>Our aim is that the span of our topics should be a curriculum in itself including even subjects like medecine, economics, how to create a business, solar energy, the peculiarities of Mars and why we might be able to live there (in line with MARS ONE 2025 mission).<br>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-4\" aria-expanded=\"false\">educating children</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-4\" aria-expanded=\"false\">teaching tools</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-4\" aria-expanded=\"false\">CREATIVITY</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-4\" aria-expanded=\"true\">parenting</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-4\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-4\">Beautiful</a></li>",
+          "media11": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/child-edu-1000x1081.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media21": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "child",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title1": "ENHANCE THE SCHOOL STANDARDS",
+          "text1": "Schools with high standards, not only envision to educate children, but also aim to develop their creativity, their growth mindset and their out of the box problem solving aptitude.<br><br>All our books are carefully and meticulously chosen to give the right impact to kids considering their young age and the delicate topics.<br><br>Learning through books should remain fun while at the same time being informative.<br>",
+          "media12": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/teacher-1000x1081.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media22": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "teacher",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title2": "FOR TEACHERS",
+          "text2": "We want to give your teachers all the tools they require whether it’s to protect or to motivate even the most reticent child.<br><br>Albert Einstein said “If you can’t explain it to a six year old, you don’t understand it yourself”<br><br>Introduce the works, the childhood and the journey of great men such as Picasso, Rene Descartes, Darwin, Ben Franklin, Neymar and the Beatles to kids!<br><br>Introduce your students to Mathematical concepts for ages 3-6.<br><br>",
+          "media13": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/creativity-1000x1081.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media23": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "content-create",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title3": "Leaders agree: <i>Creativity will be 3rd most important work skill by 2020 </i><span style=\"font-weight: normal;\">(World Economic Forum Report)</span>",
+          "text3": "<br>We want problem solving to become a habit and seeing the positive in an even difficult situation become second nature to your students.<br><br>Give them the confidence to seek the artist in themselves and thus give free reign to their creativity.<br><br>Wouldn’t it be great if your 5 year old student could say to his parents “Hey Dad, I know this guy. He is Trump and look he has small hands just like in my book.”<br>",
+          "media14": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/parent2-1000x1081.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media24": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "toddler",
+              "family": "icon54-v3",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title4": "FOR THE MODERN PARENT",
+          "text4": "As parents, we need to be the first guides to our children. However, certain topics are certainly not easy to discuss and we might tend to postpone these important issues.<br><br>Books can be made available to parent from the school's specialised library or through 'Kindle' format. A few examples of these books:<br><br>- How to talk to your child about healthy sexual boundaries<br>- How to help children deal with separation and divorce<br>- How to talk to your kids about drugs<br>- How to talk to your kids about internet terrorism<br>- How to know if your child is a genius<br><br> ",
+          "media15": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb5.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media25": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title5": "IMAGE/CONTENT SLIDER",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "media16": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb6.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media26": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum."
+        },
+        {
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "140px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "60px"
+            },
+            ".nav-tabs": {
+              "margin-top": "90px"
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-5",
+          "_params": {
+            "showHeader": true,
+            "showImages": true,
+            "showTitles": true,
+            "tabs": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-864x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#34495e",
+            "overlayOpacity": "0.9"
+          },
+          "title": "Our<br> advantages",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "edge",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title1": "ENHANCE THE LEARNING ENVIRONMENT",
+          "text1": "The introduction of books provided by Exclusive Books give participating schools a definite edge over the competition.<br>The carefully chosen books will help in enhancing the school curriculum in the classroom while also being made available in the school library for open access for all students to enjoy. We may also help schools innovate by providing premium access to parents to a specilised library dedicated to them. This access may also be provided in digital format.",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "creative-commons",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title2": "PROVIDE AN INNOVATIVE LEARNING EXPERIENCE",
+          "text2": "Books selected through Exclusive Books's trimestrial catalogue gear towards helping the children improve on their learning aptitudes. These carefully selected books will invoke children's passion for book reading and enhance their creativity,&nbsp;their growth mindset and their out of the box problem solving aptitude.",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "editor-functions",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title3": "COMPLEX CONCEPTS MADE SIMPLE",
+          "text3": "Children are often made to learn concepts through the traditional academic route. Quite a few of these children often find these concepts, sometimes too complex to grasp and understand and hence are made to learn it 'by heart'. We endeavour to improve this by making these same concepts simple to understand.&nbsp;Our carefully selected books make learning fun and interesting, especially through character based depiction of concepts.",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "expand",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title4": "EXPAND THEIR GENERAL KNOWLEDGE",
+          "text4": "Biographical works of famous people, especially made for children, are included in our trimestrial catalogue. Why not introduce the works, the childhood and the journey of great men such as Picasso, Rene Descartes, Darwin, Ben Franklin, Neymar and the Beatles to kids! <br>These could lead to deep-seated interests which can blossom into a deeper purpose for careers and life goals (from 'Creating Innovators').<br><br>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title5": "IMAGE/CONTENT SLIDER",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-5\" aria-expanded=\"true\">amazing</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-5\" aria-expanded=\"false\">Creative</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-5\" aria-expanded=\"false\">fun</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-5\" aria-expanded=\"false\">expansive</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-5\" aria-expanded=\"true\">awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-5\">Beautiful</a></li>"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            },
+            "P": {
+              "font-size": "17px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "animated-bg1",
+          "_anchor": "animated-bg1-b",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 3,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#f39c12",
+            "bgText": "Your Partner in Creating the Great Confident Individuals of the Future",
+            "bgTextStyle": "Montserrat",
+            "bgTextColor": "#8e44ad",
+            "bgTextSize": "150",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "exclusive &nbsp;books",
+          "text": "We stand as your exclusive partner and consultant, to provide the best of breed and up to date specialised books to your students, <br>thus making your institution stand out in this vastly competitive market.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html#features9-a\" data-toolbar=\"-mbrBtnMove\">TRY US OUT !</a>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features9",
+          "_anchor": "features9-a",
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true,
+            "blocks": "7",
+            "cardsColor": "#f2e6c6",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#a15b1c",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "mainTitle": "get your exclusive books now!",
+          "mainSubtitle": "Your key to stand out of the crowd",
+          "date1": "Subcribe",
+          "title1": "1. Subscription",
+          "text1": "Choose your preferred plan and subcribe.",
+          "date2": "Contract",
+          "title2": "2. Sign Agreement",
+          "text2": "You will receive the contract which need to be duly signed and sent to Exclusive Books",
+          "date3": "Registration",
+          "title3": "3. Complete Registration Process",
+          "text3": "Receive your credentials to access your page on our online portal, once signed contract and payment are received.&nbsp;",
+          "date4": "Access",
+          "title4": "4. View catalogue and order",
+          "text4": "Access your catalogue online and place your order through the portal itself.",
+          "date5": "Order",
+          "title5": "5. Placing your Order",
+          "text5": "You can select your preferred books from the portal for your order and automatically obtain your completed order.",
+          "date6": "Payment",
+          "title6": "6. Process the Invoice",
+          "text6": "The invoice generated through your order will be sent to you for payment.",
+          "date7": "Shipment",
+          "title7": "7. Order Processing",
+          "text7": "Your order will be processed as soon as payment is received, and finally, your precious cargo delivered at your door",
+          "date8": "Delivery",
+          "title8": "8. Delivery",
+          "text8": "Your Delivery order will be sent to you at the time of delivery and same will be effected at your doorstep.",
+          "date9": "9 September 2016",
+          "title9": "9. Design out of the box",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date10": "10 October 2016",
+          "title10": "10. Awesome Reports",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date11": "11 November 2016",
+          "title11": "11. Design out of the box",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date12": "12 December 2016",
+          "title12": "12. Awesome Reports",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit."
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "stripedBars": false,
+            "progress1": "35",
+            "progress2": 45,
+            "progress3": 65,
+            "progress4": 85,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/08.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#34495e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#34495e",
+            "overlayOpacity": 0.85
+          },
+          "title": "Our Books Availability",
+          "text": "Our offer is based on 4 distinct books categories based on the market availability of the books and their pertinance to the subject matter. This classification also takes into account the uniqueness and innovative subject delivery of the books.<br><br>Each category is represented through a catalogue made accessible to corresponding subscribers.<br>",
+          "title1": "standard",
+          "title2": "advanced",
+          "title3": "premium",
+          "title4": "ULTIMATE",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "progress-bar4",
+          "_anchor": "progress-bar4-s"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "secondType": "popular",
+            "thirdType": "",
+            "fourthType": "",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-10-1620x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": "0.9"
+          },
+          "title": "Choose Pricing Plan",
+          "subtitle": "Prices below are based in USD and are payable yearly in advance.",
+          "title1": "STANDARD PLAN",
+          "title2": "ADVANCED PLAN",
+          "title3": "PREMIUM PLAN",
+          "title4": "ULTIMATE PLAN",
+          "label1": "POPULAR",
+          "label2": "POPULAR",
+          "label3": "POPULAR",
+          "label4": "POPULAR",
+          "currency1": "$",
+          "currency2": "$",
+          "currency3": "$",
+          "currency4": "$",
+          "price1": "20",
+          "price2": "49",
+          "price3": "65",
+          "price4": "99",
+          "period1": "/mo",
+          "period2": "/mo",
+          "period3": "/mo",
+          "period4": "/mo",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access</b>&nbsp;Standard catalogue</li><li class=\"list-group-item\"><b>Order</b>&nbsp;online</li><li class=\"list-group-item\"><b>Updated </b>Quarterly</li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access</b>&nbsp;Standard + Advanced catalogues</li><li class=\"list-group-item\"><b>Order</b>&nbsp;Online</li><li class=\"list-group-item\"><b style=\"background-color: initial; font-size: 0.875rem;\">Updated </b><span style=\"background-color: initial; font-size: 0.875rem;\">Quarterly</span></li><li class=\"list-group-item\"><b style=\"background-color: initial; font-size: 0.875rem;\"><br></b></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Access</b>&nbsp;Standard + Advanced + Premium catalogues</li><li class=\"list-group-item\"><b>Order</b>&nbsp;online</li><li class=\"list-group-item\"><b>Updated </b>Quarterly</li><li class=\"list-group-item\"><b>Request </b>specific books</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited Access</b> to all catalogues</li><li class=\"list-group-item\"><b>Order</b>&nbsp;online</li><li class=\"list-group-item\"><b>Updated </b>quarterly</li><li class=\"list-group-item\"><b>Request</b> specific books</li><li class=\"list-group-item\"><b>Access digital books</b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"mailto:books@prodigy.mu\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-t"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion2",
+          "_anchor": "accordion2-i",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "tabs": "4",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Some FAQs",
+          "text": "Here are a few Frequently Asked Questions which may help you understand our processes&nbsp;<br>better and repond to some of your queries",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-i-init\" data-core=\"\" href=\"#collapseOneaccordion2-i\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why subscribe?</a>",
+          "text1": "<p>Subscription to Exclusive Books will give you access to your exclusive books catalogue for you to purchase from. The higher your subscription, the more catalogues you will access i.e. The 'Ultimate Plan' subscriber ill have access to all our catalogues, and more.</p>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-i-init\" data-core=\"\" href=\"#collapseTwoaccordion2-i\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">How do I order my books?</a>",
+          "text2": "&nbsp;Similar to your catalogue, your funds/account and your orders will all be managed online. i.e. you will have your personal login and password to our portal where you will be able to browse through your catalogue and order straight from there. Your payments and funds available wil also be visible.",
+          "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-i-init\" data-core=\"\" href=\"#collapseThreeaccordion2-i\" aria-expanded=\"false\" aria-controls=\"collapseThree\">How often are the catalogues updated?</a>",
+          "text3": "<p>Catalogues are updated quarterly and you will be able to access the latest available books online.</p>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-i-init\" data-core=\"\" href=\"#collapseFouraccordion2-i\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Can I request a particular book?</a>",
+          "text4": "Requests for particular books or type of books are only made available to Premium and Ultimate Plan subscribers. Upon your request for books or types, we will seek the best available current titles to find the one(s) which best suit your needs.",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-i-init\" data-core=\"\" href=\"#collapseFiveaccordion2-i\" aria-expanded=\"true\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-h",
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/mbr-6-1620x1080.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#233f5b",
+            "overlayOpacity": 0.8
+          },
+          "text": "\"If parents want to give their children a gift, the best thing they can do is to teach their children to love challenges, be intrigued by mistakes, enjoy effort, and keep on learning. That way, their children don’t have to be slaves of praise. They will have a lifelong way to build and repair their own confidence.\"",
+          "title": "carol dweck",
+          "subtitle": "Professor of Physcology, Stanford University<br>(Practising Mindset)<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".display-6": {
+              "text-transform": "none",
+              "letter-spacing": "0px",
+              "font-weight": "400",
+              "color": "#fff"
+            },
+            ".mbr-cards-row": {
+              "margin-top": "40px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": false,
+            "showTitles": true,
+            "ShowTexts": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1627x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#434350",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#434350",
+            "overlayOpacity": "0.8"
+          },
+          "title": "About<br>Exclusive Books",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/notebook/nb7.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "<p>Young talented individuals</p>",
+          "caption1": "Exclusive books is an extension of Prodigy Ltd (prodigy.mu) and is made up of passionate and talented individuals who are proud of what they deliver.",
+          "title2": "Responsive",
+          "subtitle2": "Consultancy at the heart of it all",
+          "caption2": "With a consultancy background and a wealth of experience, we have decided to extend our services to 'specialised' books and follow our passion.",
+          "title3": "Web Fonts",
+          "subtitle3": "Experience and professionalism",
+          "caption3": "With over 20 years business experience, you can be assured that your requirements will be dealt with in a professional manner, with the best of what you can expect.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Dedicated to the cause",
+          "caption4": "Through personal experiences and needs, we have made it our mission to help individuals and institutions reach excellence by sharing our knowledge.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features15",
+          "_anchor": "features15-n"
+        },
+        {
+          "_styles": {
+            ".form-control-label": {}
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-j",
+          "_params": {
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "cat1": "address",
+          "title1": "5b, Boulevard Cowin St, Beau Bassin, Mauritius",
+          "cat2": "phone",
+          "title2": "+230 5 824 2787",
+          "cat3": "email",
+          "title3": "books@prodigy.mu",
+          "text": "Do not hesitate to contac tus for any further information you may require or leave us a message right here.<br><br>We look forward to meet you soon.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>",
+          "form": {
+            "action": "roodesh@prodigy.mu",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            "I": {
+              "color": "#f39c12"
+            }
+          },
+          "_params": {
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f7f7f7",
+            "overlay": true,
+            "overlayColor": "#f7f7f7",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/exclusiv-books-logo-750x89.png",
+              "height": 128,
+              "alt": "Exclusive Books",
+              "link": "#top",
+              "title": "Exclusive Books",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "Support",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "titled1": "Private policy",
+          "titled2": "Terms &amp; Conditions",
+          "titled3": "Copyright Notifications",
+          "followtext": "follow us",
+          "text": "Copyright (c) 2018&nbsp;<i>Prodigy Ltd</i>.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer7",
+          "_anchor": "footer7-p"
+        }
+      ]
+    }
+  }
+}
